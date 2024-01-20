@@ -1,0 +1,196 @@
+Script started on 2023-11-18 21:45:14-06:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="86" LINES="45"]
+[?2004h[sungwon@royal-19] (1)$ ls[K[Kls [K
+[?2004l[0m[01;32ms1[0m*  s1.s  [01;32ms2[0m*  s2.s  [01;32ms3[0m*  s3.s  [01;32ms4[0m*  typescript
+[?2004h[sungwon@royal-19] (2)$ [7mobjdump -d ./s1 > s1.txt[27mobjdump -d ./s1 > s1.txt
+[?2004l[?2004h[sungwon@royal-19] (3)$ [7mb main[27mb main
+[?2004lb: command not found
+[?2004h[sungwon@royal-19] (4)$ [7mrun[27mrun
+[?2004lCommand 'run' not found, did you mean:
+  command 'bun' from snap bun-js (1.0.11)
+  command 'rue' from snap darkdimension-rue (1.0.7)
+  command 'rn' from deb trn4 (4.0-test77-14)
+  command 'rup' from deb rstat-client (4.0.1-11)
+  command 'zrun' from deb moreutils (0.66-1)
+  command 'grun' from deb grun (0.9.3+git20200303-1)
+  command 'runc' from deb runc (1.1.7-0ubuntu1~22.04.1)
+  command 'runq' from deb exim4-daemon-heavy (4.95-4ubuntu2.4)
+  command 'runq' from deb exim4-daemon-light (4.95-4ubuntu2.4)
+  command 'runq' from deb sendmail-bin (8.15.2-22ubuntu3)
+  command 'crun' from deb crun (0.17+dfsg-1.1)
+  command 'srun' from deb slurm-client (21.08.5-2ubuntu1)
+  command 'zun' from deb python3-zunclient (4.4.0-0ubuntu1)
+See 'snap info <snapname>' for additional versions.
+[?2004h[sungwon@royal-19] (5)$ [7m./s3[27m[1P./s3[K1
+[?2004linput 1 (of 5)? 1
+***************************************
+*********** ALARM TRIGGERED ***********
+***************************************
+[?2004h[sungwon@royal-19] (6)$ ls [K
+[?2004l[0m[01;32ms1[0m*  s1.s  s1.txt  [01;32ms2[0m*  s2.s  [01;32ms3[0m*  s3.s  [01;32ms4[0m*  typescript
+[?2004h[sungwon@royal-19] (7)$ dw[K[Kdw[K[K./s3
+[?2004linput 1 (of 5)? elephant-ears
+***************************************
+*********** ALARM TRIGGERED ***********
+***************************************
+[?2004h[sungwon@royal-19] (8)$ b[Kgdb [K
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+[?2004h(gdb) [7mb main[27mb main
+[?2004lNo symbol table is loaded.  Use the "file" command.
+[?2004hMake breakpoint pending on future shared library load? (y or [n]) y
+[?2004lBreakpoint 1 (main) pending.
+[?2004h(gdb) qut [K[Kit [K
+[?2004l[?2004h[sungwon@royal-19] (9)$ gdb [7mb *address[27mb *address
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+b: No such file or directory.
+/home/sungwon/private/cs354/p5/*address: No such file or directory.
+[?2004h(gdb) gdb [K[K[K[Kqi[Kuit [K
+[?2004l[?2004h[sungwon@royal-19] (10)$ gdb [K
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+[?2004h(gdb) [7mb *address[27m[C[C[C[C[C[Cb *address
+[?2004lNo symbol table is loaded.  Use the "file" command.
+[?2004h(gdb) f[K[7mb *0x56555856[27m6[C[C[C[C[C[Cb *0x56555856[1P0x56555856[C[C[C[C[C[C[C[C[1P0x56555856[C[C[C[C[C[C[C[1P0x56555856[C[C[C[C[C[C
+[?2004lUndefined command: "0x56555856".  Try "help".
+[?2004h(gdb) [7mb *0x56555856[27m[C[C[C[C[C[Cb *0x56555856
+[?2004lBreakpoint 1 at [34m0x56555856[m
+[?2004h(gdb) brea[K[K[K[Kquit [K
+[?2004l[?2004h[sungwon@royal-19] (11)$ gdb [K [K
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+[?2004h(gdb) stark [K[Kt [K
+[?2004lNo symbol table loaded.  Use the "file" command.
+[?2004h(gdb) run [K
+[?2004lStarting program:  
+No executable file specified.
+Use the "file" or "exec-file" command.
+[?2004h(gdb) a[Krun [K[K[K[Kfile[K[Kle [K[K[K[K[Ks
+[?2004lThe program is not being run.
+[?2004h(gdb) n
+[?2004lThe program is not being run.
+[?2004h(gdb) c
+[?2004lThe program is not being run.
+[?2004h(gdb) [7mfinish[27mfinish
+[?2004lThe program is not being run.
+[?2004h(gdb) [7mprint expression[27m[C[C[C[C[C[Cprint expression
+[?2004lNo symbol table is loaded.  Use the "file" command.
+[?2004h(gdb) [7mx /nfu address[27m[C[C[C[C[C[Cx /nfu address
+[?2004lNo symbol table is loaded.  Use the "file" command.
+[?2004h(gdb) [7minfo registers[27m[C[C[C[C[C[Cinfo registers
+[?2004lThe program has no registers now.
+[?2004h(gdb) [7mprint $eflags[27m[C[C[C[C[C[Cprint $eflags
+[?2004lNo registers.
+[?2004h(gdb) [7mx/i $pc[27mx/i $pc
+[?2004lNo registers.
+[?2004h(gdb) [7mdisass[27mdisass
+[?2004lNo frame selected.
+[?2004h(gdb) quir[Kt [K
+[?2004l[?2004h[sungwon@royal-19] (12)$ [7m> file s1.solution[27m
+[7m              s1.solution: ASCII text[27m[A> file s1.solution
+              s1.solution: ASCII text[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs1.solution: ASCII text
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+[?2004ls1.solution: command not found
+[?2004h[sungwon@royal-19] (13)$ [7m> vim s1.solution[27m
+[7m              :set fileformat=unix[27m[A> vim s1.solution
+              :set fileformat=unix[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C :set fileformat=unix
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004ls1.solution: command not found
+[?2004h[sungwon@royal-19] (14)$ gdb [K
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+[?2004h(gdb) finish [K
+[?2004lThe program is not being run.
+[?2004h(gdb) print [K
+[?2004lThe history is empty.
+[?2004h(gdb) q[Ke[Kexit [K
+[?2004l[?2004h[sungwon@royal-19] (15)$ dw[K[Ktypescript [K[K[K[K[K[K[K[K[K[K[Kgdb [K [K
+[?2004l[35;1mGNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+[?2004h(gdb) [7mobjdump -d s1[27m[C[C[C[C[C[Cobjdump -d s1
+[?2004lUndefined command: "objdump".  Try "help".
+[?2004h(gdb) dw[K[Keii[K[Kxit [K
+[?2004l[?2004h[sungwon@royal-19] (16)$ typescript [K[K[K[K[K[K[K[K[K[K[Ktype [Kscript [K
+[?2004lbash: ./typescript: Permission denied
+[?2004h[sungwon@royal-19] (17)$ dw[K[Kpwd [K[K[K[Kexit [K
+[?2004lexit
+
+Script done on 2023-11-18 21:54:34-06:00 [COMMAND_EXIT_CODE="126"]
